@@ -1,1 +1,3 @@
-# ninjacatpl
+# NinjaCat
+
+Task manager for agile ninjas.
