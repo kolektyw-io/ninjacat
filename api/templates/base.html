@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ page_title }}</title>
+    <link rel="stylesheet" href="https://cdn.metroui.org.ua/v4.3.2/css/metro-all.min.css">
+</head>
+<body>
+<h1>Hello, world!</h1>
+<div class="container-fluid">
+    {% block page_menu %}
+    <ul class="h-menu">
+        <li><a href="#">Home</a></li>
+        <li>
+            <a href="#" class="dropdown-toggle">Products</a>
+            <ul class="d-menu" data-role="dropdown">
+                <li>
+                    <a href="#" class="dropdown-toggle">Windows</a>
+                    <ul class="d-menu" data-role="dropdown">
+                        <li><a href="#">Windows 10</a></li>
+                        <li><a href="#">Windows Server</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">MS-DOS</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Skype</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Office</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Support</a></li>
+        <li><a href="#">Cart</a></li>
+    </ul>
+    {% endblock %}
+    {% block page_body %} {% endblock %}
+
+</div>
+
+<script src="https://cdn.metroui.org.ua/v4.3.2/js/metro.min.js"></script>
+</body>
+</html>
