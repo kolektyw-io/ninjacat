@@ -1,0 +1,13 @@
+{
+  "name": "ninjacat_app",
+  "version": "0.1.0",
+  "description": "Web frontend for NinjaCat",
+  "main": "index.js",
+  "repository": "github.com/kolektyw-io/ninjacat",
+  "author": "kolektyw.io Production and Publishing",
+  "license": "AGPL",
+  "dependencies": {
+    "vue": "^2.6.12",
+    "vue-cli": "^2.9.6"
+  }
+}

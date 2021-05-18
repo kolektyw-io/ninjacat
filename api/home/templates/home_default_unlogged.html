@@ -1,0 +1,90 @@
+{% extends 'base.html' %}
+
+{% block navbar %}
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="https://kolektyw.io">
+                NinjaCat Application 0.1.0
+            </a>
+
+
+        </div>
+
+        <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <div class="buttons">
+                        <a class="button is-primary">
+                            <strong>Sign up</strong>
+                        </a>
+                        <a class="button is-light">
+                            Log in
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+{% endblock %}
+
+{% block content %}
+
+    <div class="columns">
+        <div class="column is-one-third"></div>
+        <div class="column is-one-third">
+            <div class="container">
+                <div class="card">
+                    <header class="card-header">
+
+                        <p class="card-header-title">
+                            You need to authenticate...
+                        </p>
+
+                        <span class="card-header-icon">
+        <i class="mdi mdi-account" aria-hidden="true"></i>
+      </span>
+                    </header>
+
+                    <div class="card-content">
+                        <div class="content">
+                            Before you can access this page you need to register
+                            or log in.
+                        </div>
+                        <div class="field">
+                            <p class="control has-icons-left">
+                                <input class="input" type="email"
+                                       placeholder="Email">
+                                <span class="icon is-small is-left">
+      <i class="mdi mdi-onepassword"></i>
+    </span>
+                            </p>
+                        </div>
+                        <div class="field">
+                            <p class="control has-icons-left">
+                                <input class="input" type="password"
+                                       placeholder="Password">
+                                <span class="icon is-small is-left">
+      <i class="mdi mdi-lock"></i>
+    </span>
+                            </p>
+                        </div>
+                        <div class="field">
+                            <p class="control">
+                                <button class="button is-success">
+                                    Login
+                                </button>
+                            </p>
+                        </div>
+                    </div>
+                    <footer class="card-footer">
+
+                        <a href="#" class="card-footer-item">Register</a>
+
+                    </footer>
+                </div>
+            </div>
+        </div>
+        <div class="column is-one-third"></div>
+    </div>
+
+{% endblock %}
