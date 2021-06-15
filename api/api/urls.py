@@ -19,11 +19,13 @@ import administration
 import agent.urls
 import home.urls
 import setup.urls
+import users.urls
 
 urlpatterns = [
     path('administration/', include(administration.urls)),
     path('system64/', admin.site.urls),
     path('agent/', include(agent.urls)),
     path('setup/', include(setup.urls)),
+    path('user/', include(users.urls)),
     path('', include(home.urls))
 ]

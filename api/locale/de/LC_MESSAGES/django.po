@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-15 11:50+0000\n"
+"POT-Creation-Date: 2021-06-15 17:41+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,28 +18,24 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: api/settings.py:120
+#: api/settings.py:118
 msgid "English (International)"
 msgstr ""
 
-#: api/settings.py:121
+#: api/settings.py:119
 msgid "English (American)"
 msgstr ""
 
-#: api/settings.py:122
+#: api/settings.py:120
 msgid "English (British)"
 msgstr ""
 
-#: api/settings.py:123
+#: api/settings.py:121
 msgid "German"
 msgstr ""
 
-#: api/settings.py:124
+#: api/settings.py:122
 msgid "Polish"
-msgstr ""
-
-#: landing/urls.py:13 landing/views.py:9
-msgid "Hello, world!"
 msgstr ""
 
 #: templates/client/main.html:13
@@ -48,4 +44,24 @@ msgstr ""
 
 #: templates/client/main.html:14
 msgid "WelcomeMessage"
+msgstr ""
+
+#: templates/login/login_form.html:51
+msgid "Login to service"
+msgstr ""
+
+#: templates/login/login_form.html:54
+msgid "Enter your email..."
+msgstr ""
+
+#: templates/login/login_form.html:57
+msgid "Enter your password..."
+msgstr ""
+
+#: templates/login/login_form.html:60
+msgid "Remember me"
+msgstr ""
+
+#: templates/login/login_form.html:61
+msgid "Submit"
 msgstr ""
