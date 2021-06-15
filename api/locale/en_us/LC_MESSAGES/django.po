@@ -1,0 +1,54 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-06-15 11:40+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: api/settings.py:120
+msgid "English (International)"
+msgstr ""
+
+#: api/settings.py:121
+msgid "English (American)"
+msgstr ""
+
+#: api/settings.py:122
+msgid "English (British)"
+msgstr ""
+
+#: api/settings.py:123
+msgid "German"
+msgstr ""
+
+#: api/settings.py:124
+msgid "Polish"
+msgstr ""
+
+#: landing/urls.py:13
+msgid "Hello_world_default_msg"
+msgstr "Hello, world!"
+
+#: landing/views.py:9
+msgid "Hello, world!"
+msgstr "zepsuty"
+
+#: templates/client/main.html:13
+msgid "WelcomeHeading"
+msgstr ""
+
+#: templates/client/main.html:14
+msgid "WelcomeMessage"
+msgstr ""
