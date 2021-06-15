@@ -9,6 +9,7 @@ Following roadmap presents features shipped in versions. This may change in futu
 ## Version 0.2
 - [ ] Everything in 0.1 + Connection to knowledge base (KnowledgeCat)
 - [ ] Servicing groups
+- [ ] Permissions  
 - [ ] Duties
 - [ ] Auto-assignment
 - [ ] docker support
@@ -16,6 +17,8 @@ Following roadmap presents features shipped in versions. This may change in futu
 
 ## Version 0.1
 - [ ] Logging in
+  - [ ] Registering
+  - [ ] Activation
 - [ ] Creating a project
 - [ ] Agent view
 - [ ] New request view

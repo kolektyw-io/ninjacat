@@ -16,12 +16,14 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 import administration
-import agent
-import landing
+import agent.urls
+import home.urls
+import setup.urls
 
 urlpatterns = [
     path('administration/', include(administration.urls)),
     path('system64/', admin.site.urls),
     path('agent/', include(agent.urls)),
-    path('', include(landing.urls))
+    path('setup/', include(setup.urls)),
+    path('', include(home.urls))
 ]
