@@ -1,6 +1,8 @@
 from django.http import HttpResponse
 from django.urls import path
 
+from .views import client_view
+
 
 def index(request):
     """
@@ -10,5 +12,6 @@ def index(request):
 
 
 urlpatterns = [
+    path('client/', client_view),
     path('', index)
 ]
