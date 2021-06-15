@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-06-15 11:40+0000\n"
+"POT-Creation-Date: 2021-06-15 11:50+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,41 +21,33 @@ msgstr ""
 "%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 
 #: api/settings.py:120
-#, fuzzy
-#| msgid "English (American)"
 msgid "English (International)"
-msgstr "Angielski (amerykański)"
+msgstr ""
 
 #: api/settings.py:121
 msgid "English (American)"
-msgstr "Angielski (amerykański)"
+msgstr ""
 
 #: api/settings.py:122
 msgid "English (British)"
-msgstr "Angielski (Brytyjski)"
+msgstr ""
 
 #: api/settings.py:123
 msgid "German"
-msgstr "Niemiecki"
+msgstr ""
 
 #: api/settings.py:124
 msgid "Polish"
-msgstr "Polski"
+msgstr ""
 
-#: landing/urls.py:13
-msgid "Hello_world_default_msg"
-msgstr "Witaj, świecie!"
-
-#: landing/views.py:9
-#, fuzzy
-#| msgid "Hello world"
+#: landing/urls.py:13 landing/views.py:9
 msgid "Hello, world!"
-msgstr "Witaj świecie!"
+msgstr "Witaj świecie po polsku!"
 
 #: templates/client/main.html:13
 msgid "WelcomeHeading"
-msgstr "Witamy!"
+msgstr ""
 
 #: templates/client/main.html:14
 msgid "WelcomeMessage"
-msgstr "Serdecznie witamy w naszej aplikacji."
+msgstr ""

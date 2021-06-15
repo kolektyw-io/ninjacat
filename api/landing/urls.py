@@ -10,7 +10,7 @@ def index(request):
     """
         Defines main view of the application, where users lands when running app.
     """
-    return HttpResponse(_("Hello_world_default_msg"))
+    return HttpResponse(_("Hello, world!"))
 
 
 urlpatterns = [
